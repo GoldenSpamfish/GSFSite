@@ -1,0 +1,91 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-image: url(about-img.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p {
+    font-size: 130%;
+    line-height: 130%;
+}
+
+
+#main-cont {
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 25px;
+
+}
+
+.btn-default {
+    background-color: rgba(3, 34, 9, 0.8);
+    color: white;
+}
+
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+
+    font-size: 110%;
+}
+table{
+    margin: 0 auto;
+}
+
+.text-responsive {
+    font-size: calc(100% + 1vw + 1vh);
+}
+
+.fill {
+    min-height: 100%;
+    height: 100%;
+}
+
+input {
+    margin: auto;
+    width: 100%;
+    padding: 5px;
+    border-radius: 20px;
+
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.colap {
+    font-size: 18px;
+
+}
+
+/*@media screen and (min-height: 800px) and (max-aspect-ratio: 5/6){*/
+/*    h1 {*/
+/*        font-size: 64px;*/
+/*    }*/
+/*    h5 {*/
+/*        font-size: 26.56px;*/
+/*    }*/
+/*    .btn-default {*/
+/*        font-size: 32px;*/
+/*    }*/
+/*    table, th, td{*/
+/*        font-size: 24px;*/
+/*    }*/
+/*    input {*/
+/*        padding: 10px;*/
+/*    }*/
+/*    .colap {*/
+/*        font-size: 36px;*/
+/*    }*/
+/*}*/
+.dropdownBtn {
+    background-color: rgba(3, 34, 9, 0.6);
+    color: white;
+    border-radius: 0;
+}
+
+.dropdownHead {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
