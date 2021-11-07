@@ -1,7 +1,7 @@
 body {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    background-image: url(indexback.jpg);
+    background-image: url(images/indexback.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -131,6 +131,11 @@ input {
 
 .bd-placeholder-img{
     border-radius: 20px;
+}
+
+.card_thumb{
+    border-radius: 20px;
+    opacity: 0.9;
 }
 
 .article_button {
