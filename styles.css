@@ -127,7 +127,7 @@ input {
 .card {
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.5) ;
-    height: fit-content;
+    display: flex;
 }
 
 .bd-placeholder-img{
@@ -140,7 +140,7 @@ input {
 }
 
 .card-text{
-    height: 4em;
+    height: fit-content;
     font-size: large;
 }
 
