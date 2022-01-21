@@ -1,7 +1,6 @@
 body {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    background-image: url(images/indexback.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -64,6 +63,22 @@ h1 {
     color: rgba(255, 255, 255, 0.8);
 }
 .nav_button a:hover{
+    color: rgba(255, 202, 168, 0.8);
+}
+
+.gsf_button {
+    text-decoration-line: none;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 102, 0, 0.71);
+    border-radius: 25px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    padding: 7pt 15pt 10pt;
+
+}
+
+.gsf_button:hover{
     color: rgba(255, 202, 168, 0.8);
 }
 
@@ -178,4 +193,9 @@ input {
 .dropdownHead {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+}
+
+.gsf_image {
+    border-radius: 20px;
+    opacity: 0.9;
 }
