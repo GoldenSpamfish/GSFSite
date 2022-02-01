@@ -1,0 +1,10 @@
+{
+  "name": "aboutgsf",
+  "version": "1.0.0",
+  "dependencies": {
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@morioh/v-lightbox": "^1.0.3"
+  }
+}
