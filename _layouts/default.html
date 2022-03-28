@@ -29,9 +29,9 @@
 </style>
 
 <div id="main header">
-<nav class="navbar navbar-custom navbar-expand-xxl mx-auto py-auto col-11 px-4 mt-5">
-        <a class="navbar-brand" href="../index.html">
-            <img alt="GSF%20logo1.png" class="d-inline-block align-top" width="148" src="../GSF%20logo.svg">
+    <nav class="navbar navbar-custom navbar-expand-xxl mx-auto py-auto col-11 px-4 mt-5">
+        <a class="navbar-brand" href="index.html">
+            <img alt="GSF%20logo1.png" class="d-inline-block align-top" width="148" src="images/GSF%20logo.svg">
         </a>
 
         <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
@@ -44,19 +44,19 @@
             <ul class="navbar-nav me-auto">
 
                 <li class="nav-item mx-3">
-                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="index.html">Projects</a>
                 </li>
 
                 <li class="nav-item mx-3">
-                    <a class="nav-link" href="#">Shop</a>
+                    <a class="nav-link" href="shop.html">Shop</a>
                 </li>
 
                 <li class="nav-item mx-3">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="about.html">About</a>
                 </li>
 
                 <li class="nav-item mx-3">
-                    <a class="nav-link" href="#">CADs</a>
+                    <a class="nav-link" href="cad.html">CADs</a>
                 </li>
 
 
@@ -72,14 +72,17 @@
                     <a class="nav-link" href="https://www.linkedin.com/in/ryan-ellis-320746219/">LinkedIn</a>
                 </li>
             </ul>
+
+
         </div>
-</nav>
+    </nav>
 </div>
 
 <div class=" col-11 h-100 mx-auto mt-4 p-5" id="main">
     <div class="text-center p-3 text-responsive" id="heading">
         <div id="title">
             <h1>{{ page.title }}</h1>
+            <h5>{{ page.subtitle }}</h5>
         </div>
         {{ content }}
 
