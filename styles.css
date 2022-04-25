@@ -216,6 +216,7 @@ input {
 .framed_embed {
     border-radius: 20px;
     width: 75%;
+    overflow: hidden;
 }
 
 .main_image {
